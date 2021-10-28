@@ -142,17 +142,38 @@ font-size: 40px;
   background: rgba(253, 249, 249, 0.6);
 }
 
+#contatoTexto{
+  background-image: url(./img/celular.jpeg );
+  width:70vw;
+  height: 50vh;
+
+}
 h4{
+  font-size: 5px;
   border:1px solid blue;
   font-size: 70px;
-  width: 80vw;
-  background-image: url(./img/celular.jpeg);
+  width: 60vw;
 }
 #texto1{
-  color:rgb(8, 6, 6)
+  color:rgb(13, 14, 13);
+  font-size: 50px;
+  height: 50vh;
+  width:40vw;
+  padding: 20px;
+  
 }
+#whats{
+  border:1px solid black;
+  display:flex;
+  flex-direction: column;
+  
+}
+
 #texto2{
   color:yellow
+}
+#papai{
+  display:flex
 }
 
 
