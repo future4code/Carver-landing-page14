@@ -104,6 +104,24 @@ main {
   justify-items: center;
 }
 
+.saiba-mais {
+  display: flex;
+  padding: 3%;
+  align-items: center;
+  width: 50%;
+}
+
+.saiba-mais img {
+  height: 300px;
+}
+
+.saiba-mais p {
+  color: #24211F;
+  margin: 10px;
+  text-decoration: none;
+
+}
+
 .texto-em-blocos {
   color: #24211F;
   display: flex;
@@ -112,11 +130,17 @@ main {
   justify-content: space-evenly;
 }
 
+a:link {
+  text-decoration: none;
+  text-transform: none;
+  color: #24211F;
+}
+
 footer {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #24211F;
   width: 100%;
   height: 100px;
