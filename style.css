@@ -154,6 +154,7 @@ footer {
   font-size: 52px;
   margin-bottom: 60px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .nosso-time {
@@ -183,6 +184,7 @@ footer {
 .nosso-time .membro-time p.funcao {
   color: #ccc;
   font-size: 12px;
+  font-weight: bolder;
   text-transform: uppercase;
   margin: 12px 0;
 }
