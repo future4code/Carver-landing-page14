@@ -59,32 +59,30 @@ main {
   flex-direction: column;
   align-items: center;
 }
-#quem{
+#quem {
   margin-bottom: 5vh;
   margin-top: 5vh;
   font-size: 30px;
-
 }
-#crescendo{
+#crescendo {
   margin-bottom: 7vh;
   font-size: 30px;
 }
-#boxValoreseVisao{
-  gap:10px;
+#boxValoreseVisao {
+  gap: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #ffffff;
   width: 80vw;
   height: 40vh;
   align-items: center;
-  margin: 80px ;
-
+  margin: 80px;
 }
-#valorVisao{
+#valorVisao {
   font-size: 25px;
 }
 
-#texto{
+#texto {
   font-size: 20px;
   display: grid;
   background-color: white;
@@ -97,16 +95,18 @@ main {
   background: rgba(253, 249, 249, 0.6);
 }
 
-#nossosValores{
+#nossosValores {
   display: grid;
-  background-color: orange;
+  background-color: #24211f;
+  color: #dbb79f;
   place-items: center;
   height: 40vh;
 }
 
-#visao{
+#visao {
   display: grid;
-  background-color: orange;
+  background-color: #24211f;
+  color: #dbb79f;
   height: 40vh;
   place-items: center;
 }
@@ -185,12 +185,22 @@ a:link {
   text-transform: none;
   color: #24211f;
 }
-#pontos{
-  margin: 80px ;
+#pontos {
+  margin: 80px;
   height: 50vh;
   width: 80vw;
   display: grid;
   place-items: center;
+}
+
+#pontos a {
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+#pontos a:hover {
+  background: #24211f;
+  color: #fff;
 }
 
 footer {
@@ -264,59 +274,57 @@ footer {
   padding: 10px;
 }
 
-
 /*Estilização página contato*/
 
-#box1{
-  display:flex;
+#box1 {
+  display: flex;
   width: 80vw;
   margin-top: 5vh;
-  gap:3vw;
+  gap: 3vw;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(238, 193, 153);
 }
-#qrwhats{
+#qrwhats {
   border-radius: 0px;
 }
-#whatstexto{
+#whatstexto {
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
 }
-#boxWhats{
+#boxWhats {
   margin-right: 5vw;
-  display:flex;
+  display: flex;
   flex-direction: column;
   height: 45vh;
   width: 15vw;
   justify-content: space-evenly;
   align-items: center;
   background: rgba(253, 249, 249, 0.6);
- 
 }
-#descricao{
+#descricao {
   display: flex;
-  color:rgb(13, 14, 13);
+  color: rgb(13, 14, 13);
   font-size: 50px;
   height: 50vh;
-  width:40vw;
+  width: 40vw;
   align-items: center;
   margin-left: 5vw;
 }
-#fale{
+#fale {
   font-size: 25px;
-  color:green;
+  color: green;
 }
 
-#boxmensagemnumeros{
-  display:grid;
+#boxmensagemnumeros {
+  display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-#comopodemos{
+#comopodemos {
   gap: 5vh;
   margin-top: 10vh;
   margin-bottom: 10vh;
@@ -327,34 +335,33 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: rgb(238, 193, 153);
-  
 }
 
-#titulocomopodemos{
+#titulocomopodemos {
   font-size: 25px;
 }
-#formulario{
+#formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border:1px solid white;
+  border: 1px solid white;
   height: 45vh;
   width: 35vw;
   background-color: rgb(143, 138, 138);
 }
-#nomeformulario{
+#nomeformulario {
   width: 25vw;
 }
-#emailcontato{
+#emailcontato {
   width: 24.6vw;
 }
-#mensagemcontato{
+#mensagemcontato {
   width: 30vw;
   height: 25vh;
 }
 
-#numerosContatos{
+#numerosContatos {
   font-size: 20px;
   gap: 2vh;
   margin-top: 10vh;
@@ -368,23 +375,19 @@ footer {
   justify-content: center;
   background-color: rgb(238, 193, 153);
 }
-#internetbanking{
-  display:flex;
+#internetbanking {
+  display: flex;
   align-items: center;
 }
-#up.com{
-  
+#up.com {
 }
-#texto.com{
+#texto.com {
   display: flex;
   flex-direction: column;
 }
-#central{
+#central {
   font-size: 15px;
 }
-#numeroligar{
+#numeroligar {
   font-size: 20px;
 }
-
-
-
