@@ -664,6 +664,11 @@ a.button5:active {
     position: fixed;
   }
 
+  .valores {
+    display: flex;
+    flex-direction: column;
+  }
+
   label .menu-btn {
     position: absolute;
   }
