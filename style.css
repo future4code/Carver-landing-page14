@@ -23,7 +23,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #24211F;
+  background-color: #24211f;
   height: 100px;
 }
 
@@ -49,7 +49,7 @@ header .navegacao a:not(:last-child) {
 
 header .navegacao a:hover {
   background: #dbb79f;
-  color: #24211F;
+  color: #24211f;
 }
 
 main {
@@ -65,11 +65,11 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   width: 40%;
-  background-color: #24211F;
+  background-color: #24211f;
   border-radius: 15px;
   padding: 20px;
   margin: 30px;
-  justify-items: center;  
+  justify-items: center;
 }
 
 .valores h2 {
@@ -78,14 +78,14 @@ main {
 }
 
 .valores button {
-  color: #24211F;
+  color: #24211f;
   border-radius: 10px;
   margin: 5%;
   padding: 5%;
-  color: #24211F;
+  color: #24211f;
 }
 
-.valores button:hover{
+.valores button:hover {
   background: #dbb79f;
   color: #ffffff;
 }
@@ -116,14 +116,13 @@ main {
 }
 
 .saiba-mais p {
-  color: #24211F;
+  color: #24211f;
   margin: 10px;
   text-decoration: none;
-
 }
 
 .texto-em-blocos {
-  color: #24211F;
+  color: #24211f;
   display: flex;
   width: 100%;
   margin: 20px 30px;
@@ -133,7 +132,7 @@ main {
 a:link {
   text-decoration: none;
   text-transform: none;
-  color: #24211F;
+  color: #24211f;
 }
 
 footer {
@@ -141,9 +140,66 @@ footer {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #24211F;
+  background-color: #24211f;
   width: 100%;
   height: 100px;
   color: #ffffff;
 }
 
+.wrapper {
+  padding-top: 50px;
+}
+.wrapper h1 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.nosso-time {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+
+.nosso-time .membro-time {
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;
+  position: relative;
+}
+
+.nosso-time .membro-time h3 {
+  color: #24211f;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.nosso-time .membro-time p.funcao {
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+.nosso-time .membro-time .img-pessoa {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+}
+
+.nosso-time .membro-time .img-pessoa img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
