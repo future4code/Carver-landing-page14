@@ -101,7 +101,7 @@ main {
   grid-template-rows: 1fr 1fr 1fr;
   margin: 10px;
   align-items: center;
-  justify-items: center;
+  justify-items:center
 }
 
 .saiba-mais {
@@ -125,7 +125,6 @@ main {
   color: #24211f;
   display: flex;
   width: 100%;
-  margin: 20px 30px;
   justify-content: space-evenly;
 }
 
@@ -244,6 +243,53 @@ footer {
   color: #24211f;
 }
 
+.blocos-cases {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 50px;
+}
+
+.bloco-de-texto-cases {
+  display: flex;
+  flex-direction: column;
+}
+.titulo-cases {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.bloco-de-texto-orient {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bloco-de-texto-orient p {
+  text-align: center;
+  padding: 4px;
+}
+
+.bloco-de-texto-orient button {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  margin: 5%;
+  padding: 5%;
+  color: #24211f;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.bloco-de-texto-orient button:hover{
+  background: #24211f;  
+  color: #dbb79f;
+  text-decoration: none;
+  text-transform: none; 
+}
+
 .bloco-de-texto-emp button:hover {
   background: #24211f;  
   color: #dbb79f;
@@ -286,4 +332,8 @@ footer {
   width: 25%;
   height: 25%;
   padding: 5px;
+}
+
+.texto-img-case {
+  display: flex;
 }
