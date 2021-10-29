@@ -208,7 +208,6 @@ label {
   color: #24211f;
   display: flex;
   width: 100%;
-  margin: 20px 30px;
   justify-content: space-evenly;
 }
 
@@ -306,6 +305,137 @@ footer {
   padding: 10px;
 }
 
+.blocos-emprestimo {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px;
+}
+
+.emprestimo-esquerda {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.emprestimo-esquerda img {
+  width: 25%;
+  height: 25%;
+  padding: 5px;
+}
+
+.bloco-de-texto-emp {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-emp {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.bloco-de-texto-emp button {
+  border-radius: 10px;
+  margin: 5%;
+  padding: 5%;
+  color: #24211f;
+}
+
+.blocos-cases {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 50px;
+}
+
+.bloco-de-texto-cases {
+  display: flex;
+  flex-direction: column;
+}
+.titulo-cases {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.bloco-de-texto-orient {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bloco-de-texto-orient p {
+  text-align: center;
+  padding: 4px;
+}
+
+.bloco-de-texto-orient button {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  margin: 5%;
+  padding: 5%;
+  color: #24211f;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.bloco-de-texto-orient button:hover {
+  background: #24211f;
+  color: #dbb79f;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.bloco-de-texto-emp button:hover {
+  background: #24211f;
+  color: #dbb79f;
+}
+
+.emprestimo-direita {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.direcionar-org {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.direcionar-org p {
+  text-align: center;
+  margin: 20px;
+}
+
+.direcionar-org button {
+  border-radius: 10px;
+  padding: 2%;
+  color: #24211f;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.direcionar-org button:hover {
+  background: #24211f;
+  color: #dbb79f;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.emprestimo-direita img {
+  width: 25%;
+  height: 25%;
+  padding: 5px;
+}
+
+.texto-img-case {
+  display: flex;
+}
 a.button5 {
   display: inline-block;
   padding: 0.5em 3em;
