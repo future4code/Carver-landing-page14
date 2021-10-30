@@ -82,7 +82,7 @@ main {
   transform: scale(1.5);
 }
 
-label {
+.checklab {
   display: none;
 }
 
@@ -617,7 +617,7 @@ a.button5:active {
     display: none;
   }
 
-  label {
+  .checklab {
     display: block;
     font-size: 25px;
     cursor: pointer;
@@ -625,11 +625,11 @@ a.button5:active {
     transition-property: color;
   }
 
-  label:hover {
+  .checklab:hover {
     color: #fff;
   }
 
-  label .close-btn {
+  .checklab .close-btn {
     display: none;
   }
 
@@ -654,11 +654,11 @@ a.button5:active {
     letter-spacing: 2px;
   }
 
-  #check:checked ~ header label .menu-btn {
+  #check:checked ~ header .checklab .menu-btn {
     display: none;
   }
 
-  #check:checked ~ header label .close-btn {
+  #check:checked ~ header .checklab .close-btn {
     z-index: 2;
     display: block;
     position: fixed;
@@ -669,7 +669,7 @@ a.button5:active {
     flex-direction: column;
   }
 
-  label .menu-btn {
+  .checklab .menu-btn {
     position: absolute;
   }
 
