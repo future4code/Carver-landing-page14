@@ -3,7 +3,7 @@
 
 ### PROJETO LANDING PAGE
 
-O projeto escolhido por nós foi a Upfour, empresa que fornece crédito a moradores da periferia para começarem o próprio negócio.
+O projeto escolhido por nós foi a Upfour, empresa que fornece crédito a moradores da periferia para começarem o próprio negócio. <br>O grupo é formado por Christopher Feilstrecker da Silva, Leonardo de Andrade Oliveira e Robson Fernando Ferreira dos Santos.
 
 ### CONTEÚDO
 
@@ -25,6 +25,8 @@ Os menus do topo da tela, quando visualizada em celular ou tablet, desaparece e 
 Aqui contamos um pouco da história da empresa e mostramos as missões e valores da empresa. Também criamos pequenos perfis de nós, do grupo.
 
 3. **Casos de Sucesso** <br>
+<br>![image](https://user-images.githubusercontent.com/86332847/139513004-19286a53-c413-4aee-8d90-92365b0dcd9a.png)
+
 Criamos histórias de pessoas que tiveram a vida transformadas pelo empréstimo do nosso banco.
 
 4. **Empréstimos** <br>
